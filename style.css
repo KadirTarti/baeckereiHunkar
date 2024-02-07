@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    border-radius: 70%;
+    width: 50%;
+}
+
+body{
+    font-family: "Yanone Kaffeesatz";
+    font-size: 1.3rem;
+}
+
+
+.navbar{
+    border-bottom: 2px solid #949494;
+}
+
+/* !navbar */
+.nav-link{
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.nav-link:active,
+.nav-link:hover{
+    color: gold !important;
+    text-shadow: 1px 1px 5px gold;
+}
+
+.icon-link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.icon-link:active, .icon-link:hover {
+    color:gold !important;
+    text-shadow: 1px 1px 5px gold;   
+}
+
+
+/* !slider */
+.slider-image{
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover ;
+}
+
+button{
+    font-size: 2rem !important;
+    color: red !important;
+}
+
+.gold{
+    color:rgb(206, 176, 3) !important;
+}
+
+p{
+    text-align: justify;
+}
+
+
+#products, #pre-order, #about{padding-top: 8rem;}
+
+
+
+.card-image{
+    height: 400px;
+    background-position: center;
+    background-size: cover ;
+}
+
+.card{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#btnSubmit{
+    background-color: gold !important;
+    color: black !important;
+    padding: 0 5px;
+    border-radius: 15px;
+    font-weight: 0.7rem !important;
+    cursor: pointer;
+    font-size: 1.2rem !important;
+    padding: 5px 10px;
+    font-weight: 500;
+    transition: all 1s;
+}
+
+#btnSubmit:hover{
+    background-color: black !important;
+    color: gold !important;
+    box-shadow: 0px 0 10px rgb(255, 255, 255);
+}
+
+
+/* !überuns */
+.about-image{
+    width: 200px;
+    min-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover ;
+}
+
+.team{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .card-group{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+    .card-image{
+        border-radius: 20px;
+        overflow: hidden;
+    }
+}
+
+.footer{
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 20px !important;
+    text-align: center;
+    border-top: 2px solid #888;
+}
+
+.adress{
+    width: 90% !important;
+}
